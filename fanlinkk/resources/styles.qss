@@ -1,0 +1,113 @@
+/* Main Window */
+QWidget#centralwidget {
+    background-color: #141414;
+    color: #FFFFFF;
+    padding: 100px;
+}
+
+/* Top Bar */
+QWidget#TopBar {
+    background-color: #141414;
+}
+
+/* Icon Menu */
+QWidget#Icon_menu {
+    background-color:#0A0A0A; 
+    border: none;
+}
+
+QPushButton#DAICON, QPushButton#ANIcon, QPushButton#FSIcon,
+QPushButton#CEIcon, QPushButton#TEICon, QPushButton#PAICON, QPushButton#SEICON {
+    background-color: #141414;
+    color: #FFFFFF;
+}
+
+QPushButton#DAICON:hover, QPushButton#FSIcon:hover, QPushButton#ANIcon:hover,
+QPushButton#CEIcon:hover, QPushButton#TEICon:hover, QPushButton#PAICON:hover, QPushButton#SEICON:hover {
+    background-color: #373737;
+}
+
+QPushButton#DAICON:checked, QPushButton#ANIcon:checked, QPushButton#FSIcon:checked,
+QPushButton#CEIcon:checked, QPushButton#TEICon:checked, QPushButton#PAICON:checked, QPushButton#SEICON:checked {
+    background-color: #EF910D;
+}
+
+/* Full Menu */
+QWidget#FullMenu {
+    background-color: #141414;
+}
+
+/* Sidebar Buttons (FanserviceSidebarPage, AnalyticsSidebarPage, etc.) */
+QPushButton#DAMain, QPushButton#ANMain, QPushButton#FSMain,
+QPushButton#CEMain, QPushButton#TEMain, QPushButton#SEMain, QPushButton#HomeButton, QPushButton#DiscoverButton, QPushButton#NotificationsButton, 
+QPushButton#VaultButton, QPushButton#QueueButton, QPushButton#InsightsButton, QPushButton#ProfileButton, QPushButton#NewPostsButton, 
+QPushButton#ManageCreatorsButton, QPushButton#FanvueSettingsButton, QPushButton#TeamLayoutButton {
+    background-color: #141414;
+    height: 38px;
+    width: 140px;
+    border: none;
+    color: #FFFFFF;
+}
+
+QPushButton#DAMain:checked, QPushButton#ANMain:checked, QPushButton#FSMain:checked,
+QPushButton#CEMain:checked, QPushButton#TEMain:checked, QPushButton#SEMain:checked, QPushButton#HomeButton:checked, QPushButton#DiscoverButton:checked, 
+QPushButton#NotificationsButton:checked, QPushButton#VaultButton:checked, QPushButton#QueueButton:checked, QPushButton#InsightsButton:checked, 
+QPushButton#ProfileButton:checked, QPushButton#NewPostsButton:checked, QPushButton#ManageCreatorsButton:checked, QPushButton#FanvueSettingsButton:checked, 
+QPushButton#TeamLayoutButton:checked {
+    background-color: #EF910D;
+}
+
+QPushButton#DAMain:hover, QPushButton#ANMain:hover, QPushButton#FSMain:hover,
+QPushButton#CEMain:hover, QPushButton#TEMain:hover, QPushButton#SEMain:hover, QPushButton#HomeButton:hover, QPushButton#DiscoverButton:hover, 
+QPushButton#NotificationsButton:hover, QPushButton#VaultButton:hover, QPushButton#QueueButton:hover, QPushButton#InsightsButton:hover, 
+QPushButton#ProfileButton:hover, QPushButton#NewPostsButton:hover, QPushButton#ManageCreatorsButton:hover, QPushButton#FanvueSettingsButton:hover, 
+QPushButton#TeamLayoutButton:hover {
+    border: none;
+    color: #EF910D;
+}
+
+/* Style for the Checkboxes */
+QCheckBox#MBoxone::indicator, QCheckBox#MBox_two::indicator, QCheckBox#MBox_3::indicator,
+QCheckBox#MBox_4::indicator, QCheckBox#MBox_5::indicator, QCheckBox#MBox_6::indicator,
+QCheckBox#MBox_7::indicator, QCheckBox#MBox_8::indicator, QCheckBox#MBox_9::indicator, QCheckBox#MBox_10::indicator {
+    width: 16px;  /* Adjust size to make it larger */
+    height: 16px; /* Adjust height to match width */
+    border-radius: 8px; /* Half of the size for a round shape */
+    border: 2px solid #0F0F0F; /* Border color */
+    background-color: #373737; /* Background color for the unchecked state */
+}
+
+QCheckBox#MBoxone::indicator:checked, QCheckBox#MBox_two::indicator:checked, QCheckBox#MBox_3::indicator:checked,
+QCheckBox#MBox_4::indicator:checked, QCheckBox#MBox_5::indicator:checked, QCheckBox#MBox_6::indicator:checked,
+QCheckBox#MBox_7::indicator:checked, QCheckBox#MBox_8::indicator:checked, QCheckBox#MBox_9::indicator:checked, QCheckBox#MBox_10::indicator:checked {
+    background-color: #EF910D; /* Color when checked */
+    border: 2px solid #0A0A0A; /* Border color when checked */
+}
+
+/* Optionally, add a hover effect */
+QCheckBox#MBoxone::indicator:hover, QCheckBox#MBox_two::indicator:hover, QCheckBox#MBox_3::indicator:hover,
+QCheckBox#MBox_4::indicator:hover, QCheckBox#MBox_5::indicator:hover, QCheckBox#MBox_6::indicator:hover,
+QCheckBox#MBox_7::indicator:hover, QCheckBox#MBox_8::indicator:hover, QCheckBox#MBox_9::indicator:hover, QCheckBox#MBox_10::indicator:hover {
+    background-color: #141414; /* Background color on hover */
+    border: 2px solid #EF910D; /* Border color on hover */
+}
+
+/* Scroll bars */
+QScrollBar:horizontal, QScrollBar:vertical {
+    background-color: #999999;
+}
+
+/* Sidebar circular buttons */
+QPushButton#SidebarExpand, QPushButton#PRTopBar, QPushButton#NOTopBar {
+    border: 2px solid #0F0F0F; /* Border color */
+    border-radius: 18px; /* Ensures circular shape */
+    width: 36px;  /* Adjust the size to make it circular */
+    height: 36px; /* Height matches the width for the circle */
+    background-color:#141414;
+}
+
+QPushButton#SidebarExpand:hover, QPushButton#PRTopBar:hover, QPushButton#NOTopBar:hover {
+    background-color: #1F1F1F;
+    border: 3px solid #0F0F0F;
+    color: #FFFFFF;
+}

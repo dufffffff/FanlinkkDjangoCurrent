@@ -1,0 +1,142 @@
+/* Main Window */
+QWidget#centralwidget {
+    background-color: #141414;
+    color: #FFFFFF;
+    padding: 100px;
+}
+
+/* Top Bar */
+QWidget#TopBar {
+    background-color: #141414;
+}
+
+
+
+/* Icon Menu */
+QWidget#Icon_menu {
+    background-color:#0A0A0A; 
+    border: none;
+}
+
+QPushButton#DAICON, QPushButton#ANIcon, QPushButton#FSIcon,
+QPushButton#CEIcon, QPushButton#TEICon, QPushButton#PAICON, QPushButton#SEICON {
+    background-color: #141414;
+    color: #FFFFFF;
+}
+
+QPushButton#DAICON:hover, QPushButton#FSIcon:hover, QPushButton#ANIcon:hover,
+QPushButton#CEIcon:hover, QPushButton#TEICon:hover, QPushButton#PAICON:hover, QPushButton#SEICON:hover {
+    background-color: #373737;
+}
+
+QPushButton#DAICON:checked, QPushButton#ANIcon:checked, QPushButton#FSIcon:checked,
+QPushButton#CEIcon:checked, QPushButton#TEICon:checked, QPushButton#PAICON:checked, QPushButton#SEICON:checked {
+    background-color: #EF910D;
+}
+
+/* Full Menu */
+QWidget#FullMenu {
+    background-color: #141414;
+}
+
+QPushButton#DAMain, QPushButton#ANMain, QPushButton#FSMain,
+QPushButton#CEMain, QPushButton#TEMain, QPushButton#PAMain, QPushButton#SEMain {
+    background-color: #141414;
+    height: 38px;
+    width: 140px;
+    border: none;
+    color: #FFFFFF;
+}
+
+QPushButton#DAMain:checked, QPushButton#ANMain:checked, QPushButton#FSMain:checked,
+QPushButton#CEMain:checked, QPushButton#TEMain:checked, QPushButton#PAMain:checked, QPushButton#SEMain:checked {
+    background-color: #EF910D;
+}
+
+QPushButton#DAMain:hover, QPushButton#ANMain:hover, QPushButton#FSMain:hover,
+QPushButton#CEMain:hover, QPushButton#TEMain:hover, QPushButton#PAMain:hover, QPushButton#SEMain:hover {
+    border: none;
+    color: #EF910D;
+}
+
+QPushButton#pushButton_46, QPushButton#pushButton_48 {
+    background-color: #EF910D;
+    border: none;
+    color: #FFFFFF;
+}
+
+
+
+
+
+/* Style for the Checkboxes */
+QCheckBox#MBoxone::indicator, QCheckBox#MBox_two::indicator, QCheckBox#MBox_3::indicator,
+QCheckBox#MBox_4::indicator, QCheckBox#MBox_5::indicator, QCheckBox#MBox_6::indicator,
+QCheckBox#MBox_7::indicator, QCheckBox#MBox_8::indicator, QCheckBox#MBox_9::indicator, QCheckBox#MBox_10::indicator {
+    width: 16px;  /* Adjust size to make it larger */
+    height: 16px; /* Adjust height to match width */
+    border-radius: 8px; /* Half of the size for a round shape */
+    border: 2px solid #0F0F0F; /* Border color */
+    background-color: #373737; /* Background color for the unchecked state */
+}
+
+/* Style for the checked state of checkboxes */
+QCheckBox#MBoxone::indicator:checked, QCheckBox#MBox_two::indicator:checked, QCheckBox#MBox_3::indicator:checked,
+QCheckBox#MBox_4::indicator:checked, QCheckBox#MBox_5::indicator:checked, QCheckBox#MBox_6::indicator:checked,
+QCheckBox#MBox_7::indicator:checked, QCheckBox#MBox_8::indicator:checked, QCheckBox#MBox_9::indicator:checked, QCheckBox#MBox_10::indicator:checked {
+    background-color: #EF910D; /* Color when checked */
+    border: 2px solid #0A0A0A; /* Border color when checked */
+}
+
+/* Optionally, add a hover effect */
+QCheckBox#MBoxone::indicator:hover, QCheckBox#MBox_two::indicator:hover, QCheckBox#MBox_3::indicator:hover,
+QCheckBox#MBox_4::indicator:hover, QCheckBox#MBox_5::indicator:hover, QCheckBox#MBox_6::indicator:hover,
+QCheckBox#MBox_7::indicator:hover, QCheckBox#MBox_8::indicator:hover, QCheckBox#MBox_9::indicator:hover, QCheckBox#MBox_10::indicator:hover {
+    background-color: #141414; /* Background color on hover */
+    border: 2px solid #EF910D; /* Border color on hover */
+}
+
+/* Other Dashboard Buttons */
+QPushButton#DateTodayButton, QPushButton#DateYesterdayButton, QPushButton#DateWeekButton,
+QPushButton#DateMonthButton {
+    background-color: #141414;
+    border: 1px solid #0A0A0A;
+    color: #FFFFFF;
+    padding: 2px;
+}
+
+QPushButton#DateTodayButton:hover, QPushButton#DateYesterdayButton:hover, QPushButton#DateWeekButton:hover,
+QPushButton#DateMonthButton:hover {
+    background-color: #1F1F1F;
+    border: 2px solid #0A0A0A;
+    color: #FFFFFF;
+}
+
+QPushButton#DateTodayButton:checked, QPushButton#DateYesterdayButton:checked, QPushButton#DateWeekButton:checked,
+QPushButton#DateMonthButton:checked {
+    background-color: #0A0A0A;
+    color: #EF910D;
+}
+
+
+
+/* Scroll bars */
+QScrollBar:horizontal, QScrollBar:vertical {
+    background-color: #999999;
+}
+
+
+QPushButton#SidebarExpand, QPushButton#PRTopBar, QPushButton#NOTopBar {
+    border: 2px solid #0F0F0F; /* Border color */
+    border-radius: 18px; /* Ensures circular shape */
+    width: 36px;  /* Adjust the size to make it circular */
+    height: 36px; /* Height matches the width for the circle */
+    background-color:#141414
+}
+
+/* Ensuring hover effect applies specifically */
+QPushButton#SidebarExpand:hover, QPushButton#PRTopBar:hover, QPushButton#NOTopBar:hover {
+    background-color: #1F1F1F;
+    border: 3px solid #0F0F0F;
+    color: #FFFFFF;
+}
